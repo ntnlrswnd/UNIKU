@@ -6,16 +6,26 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Notification">
+    tools:context=".Notification"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="?attr/colorPrimary"
+        android:elevation="5dp"
+        app:titleTextColor="@color/black"
+        app:title="Notification"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:clipToPadding="false"
+        android:id="@+id/notif"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recyle">
-
-    </androidx.recyclerview.widget.RecyclerView>
-
+        android:layout_below="@id/toolbar"
+        android:layout_marginTop="5dp"
+        android:clipToPadding="false"
+        tools:listitem="@layout/item_notif"></androidx.recyclerview.widget.RecyclerView>
 
 
 </RelativeLayout>

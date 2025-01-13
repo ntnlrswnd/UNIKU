@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,7 +17,7 @@ public class ActivityLogin extends AppCompatActivity {
 
     // Static credentials for demo
     private static final String STATIC_USERNAME = "20220810017@uniku.ac.id";
-    private static final String STATIC_PASSWORD = "Kuningan31122003";
+    private static final String STATIC_PASSWORD = "Kuningan01012001";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

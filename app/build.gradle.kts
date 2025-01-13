@@ -41,4 +41,11 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation ("androidx.recyclerview:recyclerview:1.3.1")
+    implementation ("androidx.cardview:cardview:1.0.0")
+    implementation ("androidx.test.ext:junit:1.2.1")
+    implementation ("androidx.test.espresso:espresso-core:3.5.1")
+    implementation ("com.github.bumptech.glide:glide:4.11.0")
+    implementation ("junit:junit:4.13.2")
+    implementation ("de.hdodenhof:circleimageview:3.1.0")
+    implementation ("com.google.android.material:material:1.9.0")
 }
